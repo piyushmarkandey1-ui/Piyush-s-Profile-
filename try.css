@@ -67,7 +67,7 @@ header{
 .divi1{
     transition: all ;
  transition-duration: 1.0s;
-   transform: skew(20deg);
+  
 }
 .divi2{
     transition: all ;
@@ -78,4 +78,21 @@ header{
 }
 .divi2:hover{
      transform: translateX(-5px);
+}
+footer{
+    border-top:2px solid #FFEAD3;
+    background-color: #D25353;
+}
+.foot{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+
+    background-color: #D25353;
+    
+}
+.than{
+    height: 80px;
+    
+    background-color: #D25353;
 }
